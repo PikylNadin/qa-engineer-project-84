@@ -83,31 +83,31 @@
 
 - summary: |
     Проверка открытия карточки товара
-  requirement: 
+  requirement: |
     Пользователь должен иметь возможность просматривать подробную информацию о товаре 
   prerequisites: |
     no-data
-  test-data: 
+  test-data: |
     -
   steps:
     - выбираем товар 
     - кликаем на карточку товара
-  expected-result:
+  expected-result: |
     Открывается карточка товара с подробным описанием
 
-- summary: 
+- summary: |
     Успешное добавление товара в корзину
-  requirement:
+  requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину
   prerequisites: |
     no-data
-  test-data: 
+  test-data: |
     -
   steps:
     - выбрать товар
     - нажать на кнопку "Добавить в корзину"
     - открыть корзину
-  expected-result:
+  expected-result: |
     Выбранный товар успешно добавлен и отображается в корзине
 
 - summary: |
